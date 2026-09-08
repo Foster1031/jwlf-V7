@@ -14,7 +14,10 @@ build step is required to deploy.
 ├── board.html                 Board of Directors & Officers
 ├── non-profit-partners.html   Charity/non-profit partners
 ├── gallery.html               Photo gallery (2012–2026) with lightbox
-├── news.html                  News (migrated blog index — see checklist)
+├── news.html                  JWLF Blog index (6 full migrated articles)
+├── blog-*.html                Individual blog articles (6)
+├── es/ , pt/                  Full Spanish and Portuguese versions of every
+│                              page (same filenames; flag switcher in header)
 ├── forum.html                 Upcoming Forum & Events
 ├── speakers.html              Current (2026) speakers & panelists
 ├── previous-speakers.html     Previous topics, speakers, panelists
@@ -77,9 +80,21 @@ Gallery photos can go smaller (`-resize '1200x1200>'`). All photos are
    `www.jwlf.org`, add the custom domain under Settings → Pages and point the
    domain's DNS (CNAME) at `<user>.github.io`.
 
+## Languages
+
+Every page exists in English (root), Spanish (`/es/`), and Portuguese (`/pt/`),
+switched via the US / Mexico / Brazil flag buttons in the header. Same
+filenames in each directory, so the switcher swaps in place; `hreflang`
+alternates are in each page's head for SEO. Kept in original English by design:
+speaker/panelist biographies, blog articles, quoted forum-theme titles,
+corporate job titles, and the Florida legal disclosure (each localized page
+notes this where relevant; the disclosure carries a translated preface). This
+feature intentionally departs from the original brief's "no multilingual
+support" scope — added at the organization's request.
+
 ## Wiring the forms to Formspree (go-live)
 
-There are three forms (Contact, Sponsor inquiry, Volunteer). Each currently runs
+There are three forms (Contact, Sponsor inquiry, Volunteer), each in three languages (nine total — they can share one Formspree endpoint or use one per form). Each currently runs
 in **demo mode**: client-side validation plus a friendly confirmation, with
 nothing sent anywhere.
 

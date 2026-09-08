@@ -11,7 +11,7 @@ Fetched and inventoried on 2026-09-06. ✅ = migrated; ⚠️ = needs review/dec
 | /boards-of-directors/ | board.html | ✅ 13 directors + 4 officers with photos, titles, employers, LinkedIn links |
 | /non-profit-partners/ | non-profit-partners.html | ✅ All 14 partners with logos + external links |
 | /photo-gallery/ | gallery.html | ✅ All years 2012–2026 (~190 photos) with lightbox, lazy-loaded |
-| /blog/ | news.html | ⚠️ Migrated as post **index** (real titles/dates/teasers). Full article bodies still need migrating or the page trimmed — see “Decisions” |
+| /blog/ | news.html + blog-*.html | ✅ Blog restored: index plus **6 full articles** migrated verbatim (Communication & Career Trajectory; Executive Presence; Confidence Catalyst; Power of Sponsorship; Best Ally or Worst Enemy; Infusing Hope). ⚠️ Page 2 of the live blog has at least one older post ("How Men Can Become Better Allies to Women", Oct 22 2018) still to migrate |
 | /forums/ | forum.html | ✅ 2026 recap, 2027 “details coming soon” state, Eventbrite link, educational-events note, forum-idea + speaker CTAs |
 | /forums/current-speakers/ | speakers.html | ✅ Janean C. Armstrong & Amelia Rose Earhart keynotes + 4 panelists (Burns, Lewis, Phillips, Swietek), full bios |
 | /previous-speakers/ | previous-speakers.html | ✅ Topics 2014–2026, 29 featured-speaker bios, 66 panelist names, Charlene West quote, Dave Dallas checklist PDF link |
@@ -54,3 +54,10 @@ Fetched and inventoried on 2026-09-06. ✅ = migrated; ⚠️ = needs review/dec
 - Florida charitable-solicitation disclosure + 501(c)(3) statement (footer of every page + donate page).
 - Eventbrite registration URL, facebook.com/JaxWLF, LinkedIn group 4252397.
 - All testimonials with names/titles/companies; all sponsorship tier contents; WoLF Award text; Who Should Attend; value pillars; welcome copy; Message from the Chair.
+
+
+## Changes made at the organization's request (this revision)
+
+1. **Duplicate "Get Involved" resolved** — the header previously showed both a Get Involved nav dropdown and a Get Involved CTA button (the original brief required a persistent CTA with that label while registration is closed). The CTA is now **Donate** in all three languages; when 2027 registration opens, relabel it Register and point it at Eventbrite.
+2. **Blog restored** — the original build had condensed the blog to a teaser index (the brief allowed omitting it); all six page-1 articles are now migrated in full. Ally article: the closing line's dead "download the eBook here" link and unfinished "learn more at" sentence from the live site were cleaned up; Tammy Heermann/Libby Gill "will be a keynote speaker at the 2019 Forum" updated to past tense.
+3. **Spanish + Portuguese versions added** (flag switcher: US/Mexico/Brazil) — **this overrides the original brief's explicit "No multilingual support" exclusion**, at the organization's request. Translations are new copy produced for this build and **should be reviewed by a native speaker before launch**. Kept in English: bios, blog articles, theme titles, job titles, FL legal disclosure (translated preface added).

@@ -18,6 +18,15 @@ IMAGES = {
     "images/photos/sponsor-events.jpg":       f"{W}/2016/08/2015-events2-300x173.jpg",
     "images/photos/forum-2016.jpg":           f"{W}/2017/03/JWFL-2016-0127-1024x683.jpg",
 
+
+    # ---- Blog article images ----
+    "images/photos/blog-communication.jpg":     f"{W}/2025/06/Untitled-design-3.jpg",
+    "images/photos/blog-executive-presence.jpg":f"{W}/2025/06/Blue-And-White-Modern-Confident-Woman-scaled.jpg",
+    "images/photos/blog-mentoring.png":         f"{W}/2025/06/Mentoring-blog-scaled.png",
+    "images/photos/blog-sponsorship.png":       f"{W}/2025/06/Untitled-design-2-scaled.png",
+    "images/photos/blog-ally.jpg":              f"{W}/2019/02/StockSnap_MHRU2KPXWR.jpg",
+    "images/photos/blog-hope.jpg":              f"{W}/2019/01/Libby-Gill.jpeg",
+
     # ---- Officers & board headshots ----
     "images/people/cari-smith.jpg":       f"{W}/2024/01/Cari-Smith.jpeg",
     "images/people/katie-mountain.jpg":   f"{W}/2025/01/K_Mountain_LNSTR-EVP-2021-scaled.jpg",

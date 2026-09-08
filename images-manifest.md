@@ -261,6 +261,12 @@ for the web (see README).
 | images/photos/about-1.jpg | https://www.jwlf.org/wp-content/uploads/2026/07/JWLF-2026395-Copy-scaled.jpg |
 | images/photos/about-2.jpg | https://www.jwlf.org/wp-content/uploads/2026/07/Womens-Leadership-Forum-2025-09018-2-scaled.jpg |
 | images/photos/about-3.jpg | https://www.jwlf.org/wp-content/uploads/2026/07/JWLF-2026337-scaled.jpg |
+| images/photos/blog-ally.jpg | https://www.jwlf.org/wp-content/uploads/2019/02/StockSnap_MHRU2KPXWR.jpg |
+| images/photos/blog-communication.jpg | https://www.jwlf.org/wp-content/uploads/2025/06/Untitled-design-3.jpg |
+| images/photos/blog-executive-presence.jpg | https://www.jwlf.org/wp-content/uploads/2025/06/Blue-And-White-Modern-Confident-Woman-scaled.jpg |
+| images/photos/blog-hope.jpg | https://www.jwlf.org/wp-content/uploads/2019/01/Libby-Gill.jpeg |
+| images/photos/blog-mentoring.png | https://www.jwlf.org/wp-content/uploads/2025/06/Mentoring-blog-scaled.png |
+| images/photos/blog-sponsorship.png | https://www.jwlf.org/wp-content/uploads/2025/06/Untitled-design-2-scaled.png |
 | images/photos/forum-2016.jpg | https://www.jwlf.org/wp-content/uploads/2017/03/JWFL-2016-0127-1024x683.jpg |
 | images/photos/hero-networking.jpg | https://www.jwlf.org/wp-content/uploads/2018/06/young-JWFL-2018-7964_preview.jpeg |
 | images/photos/hero-panel.jpg | https://www.jwlf.org/wp-content/uploads/2018/06/panel-JWFL-2018-7921_preview.jpeg |

@@ -7,8 +7,8 @@ set OK=0
 set FAIL=0
 set SKIP=0
 set N=0
-set TOTAL=288
-echo Downloading %TOTAL% images from jwlf.org ...
+set TOTAL=294
+echo Checking %TOTAL% images (existing files are skipped without output)...
 echo.
 call :fetch "images\gallery\2012-IMG_2505.jpg" "https://www.jwlf.org/wp-content/uploads/2017/10/IMG_2505.jpg"
 call :fetch "images\gallery\2012-P1090986.jpg" "https://www.jwlf.org/wp-content/uploads/2017/10/P1090986.jpg"
@@ -264,6 +264,12 @@ call :fetch "images\people\vicki-harris.png" "https://www.jwlf.org/wp-content/up
 call :fetch "images\photos\about-1.jpg" "https://www.jwlf.org/wp-content/uploads/2026/07/JWLF-2026395-Copy-scaled.jpg"
 call :fetch "images\photos\about-2.jpg" "https://www.jwlf.org/wp-content/uploads/2026/07/Womens-Leadership-Forum-2025-09018-2-scaled.jpg"
 call :fetch "images\photos\about-3.jpg" "https://www.jwlf.org/wp-content/uploads/2026/07/JWLF-2026337-scaled.jpg"
+call :fetch "images\photos\blog-ally.jpg" "https://www.jwlf.org/wp-content/uploads/2019/02/StockSnap_MHRU2KPXWR.jpg"
+call :fetch "images\photos\blog-communication.jpg" "https://www.jwlf.org/wp-content/uploads/2025/06/Untitled-design-3.jpg"
+call :fetch "images\photos\blog-executive-presence.jpg" "https://www.jwlf.org/wp-content/uploads/2025/06/Blue-And-White-Modern-Confident-Woman-scaled.jpg"
+call :fetch "images\photos\blog-hope.jpg" "https://www.jwlf.org/wp-content/uploads/2019/01/Libby-Gill.jpeg"
+call :fetch "images\photos\blog-mentoring.png" "https://www.jwlf.org/wp-content/uploads/2025/06/Mentoring-blog-scaled.png"
+call :fetch "images\photos\blog-sponsorship.png" "https://www.jwlf.org/wp-content/uploads/2025/06/Untitled-design-2-scaled.png"
 call :fetch "images\photos\forum-2016.jpg" "https://www.jwlf.org/wp-content/uploads/2017/03/JWFL-2016-0127-1024x683.jpg"
 call :fetch "images\photos\hero-networking.jpg" "https://www.jwlf.org/wp-content/uploads/2018/06/young-JWFL-2018-7964_preview.jpeg"
 call :fetch "images\photos\hero-panel.jpg" "https://www.jwlf.org/wp-content/uploads/2018/06/panel-JWFL-2018-7921_preview.jpeg"
@@ -311,13 +317,14 @@ if exist %1 (
   exit /b
 )
 if not exist "%~dp1" mkdir "%~dp1"
-echo [!N!/%TOTAL%] %~1
+echo [!N!/%TOTAL%] downloading %~1
 curl -f -s -S -L --retry 2 --connect-timeout 10 --max-time 120 -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" -o %1 %2
 if errorlevel 1 (
   echo    FAILED: %~2
   if exist %1 del %1
   set /a FAIL+=1
 ) else (
+  echo    saved %~1
   set /a OK+=1
 )
 exit /b
